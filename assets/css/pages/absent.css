@@ -1,0 +1,104 @@
+.navbar {
+    background-color: #ff6fa4 !important;
+    color: white !important;
+}
+
+p,h4,.navbar-brand {
+    color: white !important;
+}
+.bg-primary,
+.btn-primary {
+    background-color: #ff6fa4 !important;
+}
+
+.nav-link {
+    font-size: 14px;
+}
+.navbar {
+    /* position: absolute; */
+    z-index: 10000;
+}
+.nav {
+    position: fixed !important;
+    width: 100%;
+    z-index: 1000 !important;
+}
+.absent,
+.area {
+    border-radius: 20px;
+    border-color:#ff6fa4 !important;
+    font-weight: 700;
+    width: 50%;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#map {
+	top: 35px;
+	bottom: 25px;
+	right: 25px;
+	left: 25px;
+	box-shadow: 0 4px 16px 0 black;
+}
+
+#map>div {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+#map.show-message {
+	pointer-events: none;
+}
+
+#map .map-overlay {
+	display: none;
+	z-index: 2;
+}
+
+#map.show-message .map-overlay {
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: #eee;
+	text-shadow: 0 -1px 1px black;
+}
+
+.center {
+	width: 100%;
+	height: 100%;
+	display: table;
+	text-align: center;
+}
+
+.center>div {
+	padding: 20%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+	display: none !important;
+}
+
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	-webkit-transition: margin 0.2s;
+	-moz-transition: margin 0.2s;
+	-o-transition: margin 0.2s;
+	transition: margin 0.2s;
+}
+.loader {
+	padding: 20px 0px;
+	z-index: 10000000000000000 !important;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: black !important;
+}

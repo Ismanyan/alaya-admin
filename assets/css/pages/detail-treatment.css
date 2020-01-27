@@ -1,0 +1,68 @@
+.card {
+    border-radius: 10px;
+}
+.card-body {
+    padding: 20px 20px 0px 20px !important;
+}
+.btn-primary {
+    padding: 15px 20px 0px 20px;
+}
+
+p,h4,.navbar-brand {
+    color: #515c6f !important;
+}
+h4,.navbar-brand {
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rounded {
+    border-radius: 20% !important;
+}
+
+.profile {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.spinner-border {
+    color: #ff6fa4;
+}
+
+.treatment-image {
+    border-radius: 10px;
+}
+
+.treatment-detail {
+    color: #ff6fa4 !important;
+    font-weight: 600;
+}
+
+.btn-secondary {
+	border-color: #ff6fa4 !important;
+	background-color: #ff6fa4 !important;
+	border-radius: 13px;
+	/* padding: 15px 20px !important; */
+	font-weight: 600;
+	padding: 0px 10px;
+}
+.btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle),
+.btn-group>.btn-group:not(:first-child)>.btn,
+.btn-group>.btn:not(:first-child) {
+	border-top-left-radius: 13px !important;
+	border-bottom-left-radius: 13px !important;
+	border-top-right-radius: 13px !important;
+	border-bottom-right-radius: 13px !important;
+}
+
+.btn-secondary.focus,
+.btn-secondary:focus {
+	box-shadow: 0 0 0 .2rem rgb(250, 124, 197) !important; 
+}
+
+.time {
+    font-weight: 800;
+    font-size: 50px !important;
+    text-align: center !important;
+    color: #56125c !important;
+}

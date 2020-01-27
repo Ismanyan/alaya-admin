@@ -1,0 +1,44 @@
+.form-control:focus {
+    box-shadow: 0 0 0 .2rem white !important;
+    border-color: #ff6fa4 !important;
+}
+input.form-control {
+    border-top: 0px solid #7f758d !important;
+    border-left: 0px solid #7f758d !important;
+    border-right: 0px solid #7f758d !important;
+    border-bottom: 0px solid #7f758d !important;
+    box-shadow: 0 0 0px white !important;
+}
+.form-control:disabled, 
+.form-control[readonly] {
+    background-color: white !important;
+    opacity: 1;
+}
+
+.form-control {
+    color: #ff6fa4 !important;
+    font-size: 35px;
+    letter-spacing: 27px !important;
+}
+.btn-secondary {
+    background-color: white;
+    color: #ff6fa4 !important;
+    border: 0px solid white;
+    font-size: 30px;
+}
+.card-body {
+    padding: 0px 1.25rem !important;
+}
+.btn-secondary:hover {
+    background-color: #ff6fa4 !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 0 0 .2rem white;
+}
+.btn-secondary:focus {
+    background-color: #ff6fa4 !important;
+    border-color: #ff6fa4 !important;
+    color: white !important;
+}

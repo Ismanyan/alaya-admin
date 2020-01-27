@@ -1,0 +1,29 @@
+.card {
+    border-radius: 10px;
+}
+.card-body {
+    padding: 20px 20px 0px 20px !important;
+}
+.btn-primary {
+    padding: 15px 20px 0px 20px;
+}
+
+p,h4,.navbar-brand {
+    color: #515c6f !important;
+}
+h4,.navbar-brand {
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rounded {
+    border-radius: 20% !important;
+}
+
+.profile {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.spinner-border {
+    color: #ff6fa4;
+}

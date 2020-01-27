@@ -1,0 +1,19 @@
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+.btn-groups {
+    padding: 10px 30px;
+}
+.bg-pink {
+    border-color: #ff6fa4 !important;
+    background-color: #ff6fa4 !important;   
+    border-radius: 13px;
+    padding: 15px 20px !important;
+    font-weight: 600;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgb(250, 124, 197) !important;
+}
