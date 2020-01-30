@@ -10,13 +10,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="<?= asset_url() . 'img/slide/slide1.jpg' ?>" alt="First slide">
+                <img class="d-block w-100" src="<?= asset_url() . 'img/slide/slide1-min.jpg' ?>" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="<?= asset_url() . 'img/slide/slide2.jpg' ?>" alt="First slide">
+                <img class="d-block w-100" src="<?= asset_url() . 'img/slide/slide2-min.jpg' ?>" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="<?= asset_url() . 'img/slide/slide3.jpg' ?>" alt="First slide">
+                <img class="d-block w-100" src="<?= asset_url() . 'img/slide/slide3-min.jpg' ?>" alt="First slide">
             </div>
         </div>
     </div>

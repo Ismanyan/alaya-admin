@@ -15,7 +15,7 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-4">
-                <img class="rounded profile data" src="" width="100" height="100" style="background-image:url('<?= asset_url() . 'img/icons/profile.png' ?>');">
+                <img class="rounded profile data" src="<?= asset_url() . 'img/' ?>profile.jpg" width="100" height="100">
             </div>
             <div class="col-8">
                 <h4 class="text-truncate"><?= $this->session->fullname_admin ?></h4>

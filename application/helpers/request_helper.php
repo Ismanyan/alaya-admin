@@ -71,6 +71,8 @@ if (!function_exists('request()')) {
     {
         $CI = &get_instance();
         $CI->load->library('session');
+        $token = $CI->session->token_admin;
+        $url .= '?api_token=' . $token;
         
         $headers = array('Accept' => 'application/json');
 

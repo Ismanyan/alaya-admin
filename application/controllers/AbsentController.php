@@ -64,4 +64,12 @@ class AbsentController extends CI_Controller
         $response = request_get($this->API . '/get/admin/absent/detail/' . $id);
         echo json_encode($response->result);
     }
+
+    // Confrim absent
+    public function confirm()
+    {
+        $id = $this->input->post('id');
+        $response = request_put($this->API. '/absent/confirm/'.$id);
+        echo json_encode($response);
+    }
 }

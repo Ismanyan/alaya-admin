@@ -37,7 +37,7 @@ class AuthController extends CI_Controller
     {
         $query = $this->input->post();
 
-        $response = request_auth('http://localhost:8000/login',$query);
+        $response = request_auth($this->API . '/login',$query);
         
         if ($response['code'] === 200 && $response['body']->result->position_id == 2) {
             $sessionData = array(

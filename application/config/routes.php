@@ -35,6 +35,7 @@ $route['treatment/get/history/detail/(:num)'] = 'TreatmentController/getTreatmen
 
 // ABSENT CONTROLLER
 $route['absent'] = 'AbsentController/index';
+$route['absent/confirm'] = 'AbsentController/confirm';
 $route['absent/get/all/(:num)'] = 'AbsentController/getAbsentAll/$1';
 $route['absent/history/detail/(:num)'] = 'AbsentController/AbsentHistoryDetail/$1';
 $route['absent/get/history/detail/(:num)'] = 'AbsentController/getAbsentHistoryDetail/$1';

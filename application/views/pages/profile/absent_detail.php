@@ -6,7 +6,7 @@
     <input type="hidden" class="detailId" value="<?= $detailId ?>">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a href="<?= base_url() ?>">
+        <a href="<?= base_url('absent') ?>">
             <img src="<?= asset_url() . 'img/icons/btnback.png' ?>" alt="back" width="12">
         </a>
         <a class="navbar-brand mx-auto" href="#" disabled>Absent Detail</a>
@@ -79,6 +79,8 @@
                     </tr>
                 </table>
             </div>
+
+            <a href="" class="btn btn-secondary w-100 my-3 p-2 maps" target="_blank">View On Maps</a>
         </div>
     </div>
 
@@ -97,14 +99,14 @@
                 $('.loader').hide();
                 if (x.length == 1) {
                     $('.treatment-image').attr('src', assets_url + 'img/slide/slide3.jpg');
-                    console.log(x.length);
+                    console.log(x);
                     $('.user_id').append(x[0].user_id);
                     $('.branch_name').append(x[0].branch_name);
                     $('.position_name').append(x[0].position_name);
                     $('.absent_time').append(x[0].absent_time);
                     $('.open_hour').append(x[0].open_hour);
                     $('.address').append(x[0].address);
-                    // $('.treatment_time_start').append(x[0].treatment_time);
+                    $('.maps').attr('href', 'https://maps.google.com/?q='+x[0].latitude+','+ x[0].longitude);
                     // $('.treatment_time_end').append(x[0].treatment_end);
                     $('.data').show();
                 } else {
